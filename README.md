@@ -85,12 +85,3 @@ To make a DNS query from any device on the same network:
     ```
     Replace `192.168.1.2` with your server PC's IP.
 
-## Demonstration
-
-Please refer to this [video tutorial](https://www.youtube.com/) for a complete step-by-step demonstration.
-
-Note: After making the video, Twitter was added to the blacklist, so you might not be able to visit Twitter.
-
-## Frontend
-
-AetherWatch also features an admin Live Monitoring dashboard for real-time DNS query monitoring.
