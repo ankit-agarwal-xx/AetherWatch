@@ -37,10 +37,10 @@ def run_script():
     # Check if Python 3.11 is installed
     if sys.version_info >= (3, 11):
         # If installed, run the script in src folder
-        requirements_file = "C:\\Users\\satis\\Downloads\\Aetherwatch\\aetherwatch-main\\requirements.txt"
+        requirements_file = "C:\\Users\\satis\\Downloads\\Aetherwatch\\aetherwatch-backend\\requirements.txt"
         install_requirements(requirements_file)
 
-        script_path = os.path.join("C:\\Users\\satis\\Downloads\\Aetherwatch\\aetherwatch-main\\src", "aetherwatch_dns_server.py")
+        script_path = os.path.join("C:\\Users\\satis\\Downloads\\Aetherwatch\\aetherwatch-backend\\src", "aetherwatch_dns_server.py")
         if os.path.exists(script_path):
             subprocess.run([sys.executable, script_path])
         else:
